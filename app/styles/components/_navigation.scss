@@ -1,0 +1,18 @@
+.top-bar, .top-bar ul {
+    background-color: $nav-background;
+}
+
+.top-bar {
+    .menu-text {
+        color: $menuTextColor;
+    }
+
+    .menu > menu-text {
+        display: inline;
+        padding: 0px;
+    }
+
+    .author-name {
+        color: $authorTextColor;
+    }
+}
