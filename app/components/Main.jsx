@@ -8,14 +8,15 @@ export default class MainComponent extends React.Component {
     }
 
     render() {
-        return (
+        return(
             <div>
-                <div>
-                    <div>
-                        <NavigationComponent/>
+                <NavigationComponent/>
+                <div className="row">
+                    <div className="col small-centered medium-6 large-4">
+                        {this.props.children}
                     </div>
                 </div>
             </div>
-        )    
+        );
     }
 }

@@ -5,7 +5,6 @@ module.exports = {
   entry: [
     'script!jquery/dist/jquery.min.js',
     'script!foundation-sites/dist/foundation.min.js',
-    'script!./public/semantic/dist/semantic.min.js',
     './app/app.jsx'
   ],
   externals: {
@@ -43,7 +42,6 @@ module.exports = {
   sassLoader: {
     includePaths: [
       path.resolve(__dirname, './node_modules/foundation-sites/scss'),
-      path.resolve(__dirname, './public/semantic/dist/semantic.min.css')
     ]
   },
   devtool: 'cheap-module-eval-source-map'
